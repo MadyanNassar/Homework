@@ -17,12 +17,28 @@
    Use `console.log` each time to display the return value of the
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
-function giveCompliment(/* TODO parameter(s) go here */) {
+function giveCompliment(name) {
   // TODO complete this function
+  const compliments = [
+    'great',
+    'awesome',
+    'amazing',
+    'beautiful',
+    'professional',
+    'smart',
+    'friendly',
+    'handsome',
+    'perfect',
+    'nice',
+  ];
+
+  const choose = compliments[Math.floor(Math.random() * 10)];
+
+  return `You are ${choose}, ${name}!`;
 }
 
 // TODO substitute your own name for "HackYourFuture"
-const myName = 'HackYourFuture';
+const myName = 'Madyan';
 
 console.log(giveCompliment(myName));
 console.log(giveCompliment(myName));

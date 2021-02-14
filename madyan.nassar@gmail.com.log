@@ -1,0 +1,25 @@
+2021-02-14 02:15:34 info: ----------------------------------------------
+2021-02-14 02:15:34 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-14 02:15:34 info: ----------------------------------------------
+2021-02-14 02:15:48 info: All unit tests passed.
+2021-02-14 02:15:59 info: All steps were completed successfully
+2021-02-14 02:17:32 info: ----------------------------------------
+2021-02-14 02:17:32 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-14 02:17:32 info: ----------------------------------------
+2021-02-14 02:17:43 info: All unit tests passed.
+2021-02-14 02:17:50 info: All steps were completed successfully
+2021-02-14 02:18:00 info: -------------------------------------------
+2021-02-14 02:18:00 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-14 02:18:00 info: -------------------------------------------
+2021-02-14 02:18:11 info: All unit tests passed.
+2021-02-14 02:18:18 info: All steps were completed successfully
+2021-02-14 02:18:29 info: --------------------------------------------
+2021-02-14 02:18:29 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-02-14 02:18:29 info: --------------------------------------------
+2021-02-14 02:18:40 info: All unit tests passed.
+2021-02-14 02:18:47 info: All steps were completed successfully
+2021-02-14 02:19:04 info: -------------------------------------------------
+2021-02-14 02:19:04 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-14 02:19:04 info: -------------------------------------------------
+2021-02-14 02:19:16 info: All unit tests passed.
+2021-02-14 02:19:23 info: All steps were completed successfully
