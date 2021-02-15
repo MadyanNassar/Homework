@@ -77,7 +77,6 @@ function tellFortune(kidsNum, nameParents, location, job) {
     kidsNum
   )} kids.`;
 }
-
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));

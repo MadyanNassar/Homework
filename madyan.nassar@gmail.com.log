@@ -1,226 +1,87 @@
-2021-02-14 02:15:34 info: ----------------------------------------------
-2021-02-14 02:15:34 info: >>> Running Unit Test `ex1-giveCompliment` <<<
-2021-02-14 02:15:34 info: ----------------------------------------------
-2021-02-14 02:15:48 info: All unit tests passed.
-2021-02-14 02:15:59 info: All steps were completed successfully
-2021-02-14 02:17:32 info: ----------------------------------------
-2021-02-14 02:17:32 info: >>> Running Unit Test `ex2-dogYears` <<<
-2021-02-14 02:17:32 info: ----------------------------------------
-2021-02-14 02:17:43 info: All unit tests passed.
-2021-02-14 02:17:50 info: All steps were completed successfully
-2021-02-14 02:18:00 info: -------------------------------------------
-2021-02-14 02:18:00 info: >>> Running Unit Test `ex3-tellFortune` <<<
-2021-02-14 02:18:00 info: -------------------------------------------
-2021-02-14 02:18:11 info: All unit tests passed.
-2021-02-14 02:18:18 info: All steps were completed successfully
-2021-02-14 02:18:29 info: --------------------------------------------
-2021-02-14 02:18:29 info: >>> Running Unit Test `ex4-shoppingCart` <<<
-2021-02-14 02:18:29 info: --------------------------------------------
-2021-02-14 02:18:40 info: All unit tests passed.
-2021-02-14 02:18:47 info: All steps were completed successfully
-2021-02-14 02:19:04 info: -------------------------------------------------
-2021-02-14 02:19:04 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
-2021-02-14 02:19:04 info: -------------------------------------------------
-2021-02-14 02:19:16 info: All unit tests passed.
-2021-02-14 02:19:23 info: All steps were completed successfully
-2021-02-14 11:30:50 info: -----------------------------------------
-2021-02-14 11:30:50 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:30:50 info: -----------------------------------------
-2021-02-14 11:30:53 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:30:57 error: *** ESLint Report ***
-
-ex6-totalCost.js
-  35:12  warning  'i' is never reassigned. Use 'const' instead     no-autofix/prefer-const
-  36:5   error    'totalPrice' is assigned a value but never used  no-unused-vars
-
-✖ 2 problems (1 error, 1 warning)
-
-
-2021-02-14 11:32:43 info: -----------------------------------------
-2021-02-14 11:32:43 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:32:43 info: -----------------------------------------
-2021-02-14 11:32:46 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:32:49 error: *** ESLint Report ***
-
-ex6-totalCost.js
-  36:5  error  'totalPrice' is assigned a value but never used  no-unused-vars
-
-✖ 1 problem (1 error, 0 warnings)
-
-
-2021-02-14 11:33:07 info: Disclaimer turned off
-2021-02-14 11:37:18 info: -----------------------------------------
-2021-02-14 11:37:18 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:37:18 info: -----------------------------------------
-2021-02-14 11:37:20 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:37:23 error: *** ESLint Report ***
-
-ex6-totalCost.js
-  36:5  error  'totalPrice' is assigned a value but never used  no-unused-vars
-
-✖ 1 problem (1 error, 0 warnings)
-
-
-2021-02-14 11:38:53 info: -----------------------------------------
-2021-02-14 11:38:53 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:38:53 info: -----------------------------------------
-2021-02-14 11:38:55 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:38:58 error: *** ESLint Report ***
-
-ex6-totalCost.js
-  36:5  error  'price' is assigned a value but never used  no-unused-vars
-
-✖ 1 problem (1 error, 0 warnings)
-
-
-2021-02-14 11:39:28 info: -----------------------------------------
-2021-02-14 11:39:28 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:39:28 info: -----------------------------------------
-2021-02-14 11:39:30 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:39:34 error: *** ESLint Report ***
-
-ex6-totalCost.js
-  36:5  error  'price' is assigned a value but never used  no-unused-vars
-
-✖ 1 problem (1 error, 0 warnings)
-
-
-2021-02-14 11:41:01 info: -----------------------------------------
-2021-02-14 11:41:01 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:41:01 info: -----------------------------------------
-2021-02-14 11:41:03 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:41:06 error: *** ESLint Report ***
-
-ex6-totalCost.js
-  36:5  error  'totalPrice' is assigned a value but never used  no-unused-vars
-
-✖ 1 problem (1 error, 0 warnings)
-
-
-2021-02-14 11:41:55 info: -----------------------------------------
-2021-02-14 11:41:55 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:41:55 info: -----------------------------------------
-2021-02-14 11:41:58 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:42:54 info: -----------------------------------------
-2021-02-14 11:42:54 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:42:54 info: -----------------------------------------
-2021-02-14 11:42:56 error: *** Unit Test Error Report ***
-
-
-2021-02-14 11:42:59 error: *** ESLint Report ***
-
-ex6-totalCost.js
-  36:5  error  'totalPrice' is assigned a value but never used  no-unused-vars
-
-✖ 1 problem (1 error, 0 warnings)
-
-
-2021-02-14 11:44:08 info: -----------------------------------------
-2021-02-14 11:44:08 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-14 11:44:08 info: -----------------------------------------
-2021-02-14 11:44:10 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:19:05 info: ----------------------------------------------
-2021-02-15 01:19:05 info: >>> Running Unit Test `ex1-giveCompliment` <<<
-2021-02-15 01:19:05 info: ----------------------------------------------
-2021-02-15 01:19:08 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:19:26 info: ----------------------------------------
-2021-02-15 01:19:26 info: >>> Running Unit Test `ex2-dogYears` <<<
-2021-02-15 01:19:26 info: ----------------------------------------
-2021-02-15 01:19:28 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:19:51 info: -------------------------------------------
-2021-02-15 01:19:51 info: >>> Running Unit Test `ex3-tellFortune` <<<
-2021-02-15 01:19:51 info: -------------------------------------------
-2021-02-15 01:19:54 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:20:22 info: --------------------------------------------
-2021-02-15 01:20:22 info: >>> Running Unit Test `ex4-shoppingCart` <<<
-2021-02-15 01:20:22 info: --------------------------------------------
-2021-02-15 01:20:25 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:20:43 info: -------------------------------------------------
-2021-02-15 01:20:43 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
-2021-02-15 01:20:43 info: -------------------------------------------------
-2021-02-15 01:20:45 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:21:11 info: -----------------------------------------
-2021-02-15 01:21:11 info: >>> Running Unit Test `ex6-totalCost` <<<
-2021-02-15 01:21:11 info: -----------------------------------------
-2021-02-15 01:21:14 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:21:36 info: -------------------------------------------
-2021-02-15 01:21:36 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
-2021-02-15 01:21:36 info: -------------------------------------------
-2021-02-15 01:21:38 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:21:42 error: *** ESLint Report ***
-
-ex7-mindPrivacy.js
-  32:34  error  'gender' is assigned a value but never used  no-unused-vars
-  32:49  error  'salary' is assigned a value but never used  no-unused-vars
-
-✖ 2 problems (2 errors, 0 warnings)
-
-
-2021-02-15 01:28:53 info: -------------------------------------------
-2021-02-15 01:28:53 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
-2021-02-15 01:28:53 info: -------------------------------------------
-2021-02-15 01:28:57 error: *** Unit Test Error Report ***
-
-
-2021-02-15 02:07:11 info: -------------------------------------------
-2021-02-15 02:07:11 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
-2021-02-15 02:07:11 info: -------------------------------------------
-2021-02-15 02:07:13 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:09:35 info: -------------------------------------------
-2021-02-15 01:09:35 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
-2021-02-15 01:09:35 info: -------------------------------------------
-2021-02-15 01:09:37 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:09:41 error: *** ESLint Report ***
-
-ex7-mindPrivacy.js
-  45:1  error  Parsing error: Unexpected token
-
-✖ 1 problem (1 error, 0 warnings)
-
-
-2021-02-15 01:10:31 info: -------------------------------------------
-2021-02-15 01:10:31 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
-2021-02-15 01:10:31 info: -------------------------------------------
-2021-02-15 01:10:34 error: *** Unit Test Error Report ***
-
-
-2021-02-15 01:20:00 info: -------------------------------------------
-2021-02-15 01:20:00 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
-2021-02-15 01:20:00 info: -------------------------------------------
-2021-02-15 01:20:02 error: *** Unit Test Error Report ***
-
-
+2021-02-15 11:02:19 info: ----------------------------------------------
+2021-02-15 11:02:19 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-15 11:02:19 info: ----------------------------------------------
+2021-02-15 11:02:19 info: Exercise has not yet been modified
+2021-02-15 11:02:31 error: *** Unit Test Error Report ***
+
+
+
+2021-02-15 11:05:52 info: ----------------------------------------------
+2021-02-15 11:05:52 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-15 11:05:52 info: ----------------------------------------------
+2021-02-15 11:05:52 info: Exercise has not yet been modified
+2021-02-15 11:06:03 info: All unit tests passed.
+2021-02-15 11:06:10 info: All steps were completed successfully
+2021-02-15 11:07:24 info: ----------------------------------------
+2021-02-15 11:07:24 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-15 11:07:24 info: ----------------------------------------
+2021-02-15 11:07:24 info: Exercise has not yet been modified
+2021-02-15 11:07:35 info: All unit tests passed.
+2021-02-15 11:07:42 info: All steps were completed successfully
+2021-02-15 11:10:16 info: ----------------------------------------
+2021-02-15 11:10:16 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-15 11:10:16 info: ----------------------------------------
+2021-02-15 11:10:16 info: Exercise has not yet been modified
+2021-02-15 11:10:27 info: All unit tests passed.
+2021-02-15 11:10:34 info: All steps were completed successfully
+2021-02-15 11:12:30 info: ----------------------------------------------
+2021-02-15 11:12:30 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-15 11:12:30 info: ----------------------------------------------
+2021-02-15 11:12:42 info: All unit tests passed.
+2021-02-15 11:12:50 info: All steps were completed successfully
+2021-02-15 11:13:16 info: ----------------------------------------
+2021-02-15 11:13:16 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-15 11:13:16 info: ----------------------------------------
+2021-02-15 11:13:29 info: All unit tests passed.
+2021-02-15 11:13:36 info: All steps were completed successfully
+2021-02-15 11:13:50 info: -------------------------------------------
+2021-02-15 11:13:50 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-15 11:13:50 info: -------------------------------------------
+2021-02-15 11:13:50 info: Exercise has not yet been modified
+2021-02-15 11:14:01 info: All unit tests passed.
+2021-02-15 11:14:08 info: All steps were completed successfully
+2021-02-15 11:15:09 info: -------------------------------------------
+2021-02-15 11:15:09 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-15 11:15:09 info: -------------------------------------------
+2021-02-15 11:15:21 info: All unit tests passed.
+2021-02-15 11:15:28 info: All steps were completed successfully
+2021-02-15 11:15:40 info: --------------------------------------------
+2021-02-15 11:15:40 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-02-15 11:15:40 info: --------------------------------------------
+2021-02-15 11:15:55 info: All unit tests passed.
+2021-02-15 11:16:02 info: All steps were completed successfully
+2021-02-15 11:16:21 info: --------------------------------------------
+2021-02-15 11:16:21 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-02-15 11:16:21 info: --------------------------------------------
+2021-02-15 11:16:32 info: All unit tests passed.
+2021-02-15 11:16:40 info: All steps were completed successfully
+2021-02-15 11:16:59 info: -------------------------------------------------
+2021-02-15 11:16:59 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-15 11:16:59 info: -------------------------------------------------
+2021-02-15 11:16:59 info: Exercise has not yet been modified
+2021-02-15 11:17:11 info: All unit tests passed.
+2021-02-15 11:17:18 info: All steps were completed successfully
+2021-02-15 11:18:23 info: -------------------------------------------------
+2021-02-15 11:18:23 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-15 11:18:23 info: -------------------------------------------------
+2021-02-15 11:18:35 info: All unit tests passed.
+2021-02-15 11:18:42 info: All steps were completed successfully
+2021-02-15 11:18:59 info: -----------------------------------------
+2021-02-15 11:18:59 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-15 11:18:59 info: -----------------------------------------
+2021-02-15 11:19:10 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €15.43
+  Received: Total: €15.430000000000001
+
+2021-02-15 11:22:36 info: -----------------------------------------
+2021-02-15 11:22:36 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-15 11:22:36 info: -----------------------------------------
+2021-02-15 11:22:48 info: All unit tests passed.
+2021-02-15 11:22:55 info: All steps were completed successfully
+2021-02-15 11:23:07 info: -------------------------------------------
+2021-02-15 11:23:07 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-15 11:23:07 info: -------------------------------------------
+2021-02-15 11:23:19 info: All unit tests passed.
+2021-02-15 11:23:27 info: All steps were completed successfully

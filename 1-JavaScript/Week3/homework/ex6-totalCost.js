@@ -19,6 +19,7 @@ instead!
 3. Call the function once, giving it the object `cartForParty` as an argument.
    Use `console.log` to display the result.
 -----------------------------------------------------------------------------*/
+
 const cartForParty = {
   // TODO complete this function
   beers: 3,
@@ -35,6 +36,8 @@ function calculateTotalPrice(shoppingCart) {
   for (const i in shoppingCart) {
     totalPrice = totalPrice + shoppingCart[i];
   }
+  totalPrice = totalPrice.toFixed(2);
+
   return `Total: €${totalPrice}`;
 }
 

@@ -23,6 +23,7 @@ const shoppingCart = ['bananas', 'milk'];
 
 function addToShoppingCart(item) {
   // TODO complete this function
+
   if (shoppingCart.length < 3) {
     shoppingCart.push(item);
   } else {

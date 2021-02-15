@@ -33,7 +33,6 @@ function giveCompliment(name) {
   ];
 
   const choose = compliments[Math.floor(Math.random() * 10)];
-
   return `You are ${choose}, ${name}!`;
 }
 

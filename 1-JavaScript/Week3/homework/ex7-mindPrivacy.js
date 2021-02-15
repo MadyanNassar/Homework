@@ -9,6 +9,7 @@
    employee record with just the non-private parts (name, occupation and email).
 4. Return the new array as the return value of the function.
 ------------------------------------------------------------------------------*/
+
 const employeeRecords = [
   {
     name: 'John',
