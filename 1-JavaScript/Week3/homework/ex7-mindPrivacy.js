@@ -31,8 +31,6 @@ function filterPrivateData(employeeDetails) {
   const publicData = [];
   for (const { name, occupation, email } of employeeDetails) {
     const newData = { name, occupation, email };
-    delete employeeDetails.salary;
-    delete employeeDetails.gender;
     publicData.push(newData);
   }
   return publicData;
