@@ -21,12 +21,6 @@
       "size": "126 GB",
       "fsType": "ntfs",
       "physical": "Local"
-    },
-    {
-      "name": "D:",
-      "size": "0 GB",
-      "fsType": "",
-      "physical": "CD/DVD"
     }
   ],
   "vscodeInfo": {
@@ -47,6 +41,7 @@
       "ecmel.vscode-html-css",
       "esbenp.prettier-vscode",
       "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.code-runner",
       "hdg.live-html-previewer",
       "mkaufman.HTMLHint",
       "ritwickdey.LiveServer",
