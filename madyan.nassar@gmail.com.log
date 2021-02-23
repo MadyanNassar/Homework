@@ -132,3 +132,88 @@ ex2-mondaysWorth.js
 2021-02-22 11:54:46 info: --------------------------------------------
 2021-02-22 11:54:54 info: All unit tests passed.
 2021-02-22 11:55:02 info: All steps were completed successfully
+2021-02-23 09:44:03 info: ------------------------------------------------
+2021-02-23 09:44:03 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-02-23 09:44:03 info: ------------------------------------------------
+2021-02-23 09:44:14 info: All unit tests passed.
+2021-02-23 09:44:23 info: All steps were completed successfully
+2021-02-23 09:51:25 info: --------------------------------------
+2021-02-23 09:51:25 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-23 09:51:25 info: --------------------------------------
+2021-02-23 09:51:25 info: Exercise has not yet been modified
+2021-02-23 09:51:33 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-23 09:53:49 info: --------------------------------------
+2021-02-23 09:53:49 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-23 09:53:49 info: --------------------------------------
+2021-02-23 09:53:57 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-23 09:54:01 error: *** ESLint Report ***
+ex5-wallet/index.js
+   80:13  error  'c' is not defined  no-undef
+   89:13  error  'b' is not defined  no-undef
+   98:13  error  'a' is not defined  no-undef
+  107:13  error  'b' is not defined  no-undef
+  116:13  error  'b' is not defined  no-undef
+
+✖ 5 problems (5 errors, 0 warnings)
+2021-02-23 09:55:01 info: --------------------------------------
+2021-02-23 09:55:01 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-23 09:55:01 info: --------------------------------------
+2021-02-23 09:55:09 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-02-23 09:56:25 info: --------------------------------------
+2021-02-23 09:56:25 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-23 09:56:25 info: --------------------------------------
+2021-02-23 09:56:33 error: *** Unit Test Error Report ***
+
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q4: What is displayed in the console?
+
+2021-02-23 09:57:29 info: --------------------------------------
+2021-02-23 09:57:29 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-23 09:57:29 info: --------------------------------------
+2021-02-23 09:57:37 info: All unit tests passed.
+2021-02-23 09:57:45 info: All steps were completed successfully
+2021-02-23 09:58:02 info: -------------------------------------------------
+2021-02-23 09:58:02 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-02-23 09:58:02 info: -------------------------------------------------
+2021-02-23 09:58:10 info: All unit tests passed.
+2021-02-23 09:58:17 info: All steps were completed successfully
+2021-02-23 09:58:27 info: --------------------------------------------
+2021-02-23 09:58:27 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-23 09:58:27 info: --------------------------------------------
+2021-02-23 09:58:34 info: All unit tests passed.
+2021-02-23 09:58:42 info: All steps were completed successfully
+2021-02-23 09:58:52 info: --------------------------------------------
+2021-02-23 09:58:52 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-02-23 09:58:52 info: --------------------------------------------
+2021-02-23 09:59:00 info: All unit tests passed.
+2021-02-23 09:59:07 info: All steps were completed successfully
+2021-02-23 09:59:17 info: ------------------------------------------------
+2021-02-23 09:59:17 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-02-23 09:59:17 info: ------------------------------------------------
+2021-02-23 09:59:25 info: All unit tests passed.
+2021-02-23 09:59:33 info: All steps were completed successfully
+2021-02-23 09:59:43 info: --------------------------------------
+2021-02-23 09:59:43 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-02-23 09:59:43 info: --------------------------------------
+2021-02-23 09:59:50 info: All unit tests passed.
+2021-02-23 10:00:00 info: All steps were completed successfully
