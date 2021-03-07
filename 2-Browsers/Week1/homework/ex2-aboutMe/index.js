@@ -9,3 +9,16 @@
 ------------------------------------------------------------------------------*/
 
 // TODO add your JavaScript code here.
+const body = document.querySelector('body');
+body.style.fontFamily = 'Arial, sans-serif';
+
+const myNickName = document.getElementById('nickname');
+const myFavFood = document.getElementById('fav-food');
+const myHomeTown = document.getElementById('hometown');
+
+myNickName.textContent = 'Madyan';
+myFavFood.textContent = 'Pizza';
+myHomeTown.textContent = 'Nazareth';
+
+const liItems = document.querySelectorAll('li');
+liItems.forEach((item) => (item.className = 'list-item'));
