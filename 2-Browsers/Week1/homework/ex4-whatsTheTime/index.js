@@ -7,9 +7,9 @@
 ------------------------------------------------------------------------------*/
 function addCurrentTime() {
   // TODO complete this function
-  const today = new Date().toLocaleTimeString();
-  document.body.innerHTML = today;
+  const timeNow = new Date().toLocaleTimeString();
+  document.body.innerHTML = timeNow;
 }
 
 // TODO execute `addCurrentTime` when the browser has completed loading the page
-window.addEventListener('load', setInterval(addCurrentTime, 1000));
+window.addEventListener('load', () => setInterval(addCurrentTime, 1000));

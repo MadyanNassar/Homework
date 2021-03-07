@@ -18,6 +18,7 @@
 
 const catImage = document.querySelector('img');
 catImage.style.left = '0px';
+catImage.addEventListener('load', () => catImage.width);
 const catImageWidth = catImage.width;
 const endOfScreen = window.innerWidth - catImageWidth;
 const midOfScreen = endOfScreen / 2;
@@ -25,25 +26,23 @@ let catPosition = 0;
 let dancing = false;
 
 function catWalk() {
-  const startWalking = setInterval(function () {
-    catPosition += 10;
-    catImage.style.left = catPosition + 'px';
-
-    if (catPosition > endOfScreen) {
-      catPosition = 0;
-      dancing = false;
-    } else if (!dancing && catPosition >= midOfScreen) {
-      clearInterval(startWalking);
-      catImage.src =
-        'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif?itemid=10561424';
-      setTimeout(() => {
-        dancing = true;
-        catImage.src =
-          'http://www.anniemation.com/clip_art/images/cat-walk.gif';
-        catWalk();
-      }, 5000);
-    }
-  }, 50);
+  catPosition += 10;
+  catImage.style.left = catPosition + 'px';
+  if (catPosition > endOfScreen) {
+    catPosition = 0;
+    dancing = false;
+  } else if (!dancing && catPosition >= midOfScreen) {
+    clearInterval(startWalking);
+    catImage.src =
+      'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif?itemid=10561424';
+    setTimeout(() => {
+      dancing = true;
+      catImage.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+      startWalking = setInterval(catWalk, 50);
+    }, 5000);
+  }
 }
+
+const startWalking = setInterval(catWalk, 50);
 // TODO execute `catWalk` when the browser has completed loading the page
 window.addEventListener('DOMContentLoaded', catWalk());
