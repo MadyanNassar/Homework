@@ -1,0 +1,15 @@
+If your week in the curriculum calls for homework to be handed in, the following steps should be taken. This process will make it the easiest for our mentors to give you feedback on your code and allows us to keep track on how everyone is doing.
+
+Make sure you are up to date with the latest version of the homework by issueing the following commands:
+git fetch upstream to check the latest version
+git checkout main to make sure you are on your main branch
+git rebase -Xtheirs upstream/main to grab the latest version from the HYF Homework repository
+git push to update the main branch of your forked repo on GitHUb
+npm install to make sure any needed packages are installed
+Create a new branch MODULENAME-WEEKNAME. So for example, the first week of JavaScript should be called JavaScript-Week1
+Do your homework! Remember that there is a test runner that does some automated testing of your homework, you can find out about that in the README.
+Once completed add and commit everything to the branch
+Push the branch to your repository
+Create a pull request by click the create pull request button in your github repository page (https://github.com/GITHUBNAME/Homework/pulls). The pull request should be from your branch to the main branch. Do not create a pull request to the HYF Homework repository.
+Add an issue to your class repository with the name YOURNAME - MODULENAME (WEEKNAME). In it, share a link to the PR request you just created. Also assign it the correct milestone (the name of the module), the correct week label and make sure you assign yourself to the issue as well.
+Lastly, add the 'Needs review' label so our mentors know they can start reviewing it.
