@@ -20,7 +20,8 @@ const rollDice = require('../../helpers/pokerDiceRoller');
 function rollTheDices() {
   // TODO Refactor this function
   const dices = [1, 2, 3, 4, 5];
-  return rollDice(1);
+  const promises = dices.map((dice) => rollDice(dice));
+  return Promise.all(promises);
 }
 
 rollTheDices()
@@ -29,3 +30,8 @@ rollTheDices()
 
 // ! Do not change or remove the code below
 module.export = rollTheDices;
+
+/*
+I think when one of promises in promise array [promise.all()] rejected that doesn't mean it will break the chain,
+ so it will wait for other promises but in this case the big promise will return false or error
+*/
